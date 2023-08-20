@@ -1,6 +1,7 @@
 //setTimeout e um callback e recebe função como parametro
-
 console.log("antes o setTimeout ");
+
+
 
 //e uma função assincrona pois espera os dois segundos
 setTimeout(function(){

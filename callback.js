@@ -2,7 +2,6 @@ function exibir(num) {
     console.log(num)
 }
 
-
 function soma(num1, num2, callback) {
     let op = num1 + num2;
     console.log(op);
@@ -14,5 +13,7 @@ function multiplicacao(num1, num2,callback) {
 }
 
 soma(21,43,exibir);
+//64
 
 multiplicacao(10,87,exibir);
+//870

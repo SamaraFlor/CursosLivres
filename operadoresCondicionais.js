@@ -7,4 +7,4 @@ if (idade >= idadeMinima && habilitado === true) {
 }else{
     console.log("Não pode dirigir");
 }
-    
+//pode dirigir 

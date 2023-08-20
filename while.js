@@ -7,6 +7,12 @@ while(x <= 5){
     //incrementar 
     x++
 };
+// aqui 0
+// aqui 1
+// aqui 2
+// aqui 3
+// aqui 4
+// aqui 5
 
 let palavra = "Samara";
 let i = 0;
@@ -16,3 +22,9 @@ while (i <= 5) {
     i++
     
 };
+// S     
+// a     
+// m     
+// a     
+// r
+// a
