@@ -40,4 +40,10 @@ for (let index = 4; index < 100; index *= 3) {
 // aqui   36
 
 
-
+//Para contar string
+let count = ''
+for (let index = 0; index < 10; index++) {  
+    count  += String(index);
+}
+console.log(count);
+//0123456789
