@@ -47,3 +47,37 @@ for (let index = 0; index < 10; index++) {
 }
 console.log(count);
 //0123456789
+
+//executa ate ser verdadeiro
+let array = ['v1','v2','v3','v4','v5'];
+let object = {propriedade1:'v1',propriedade2:'v2', propriedade3:'v3'};
+
+for (let index = 0; index < array.length; index++) {
+   console.log(index);
+};
+
+//for in executa repetiçãoa partir de uma propriedade
+for (const i in array) {
+  console.log("aqui ", i);
+}
+
+
+//for in em object pode ser declarada assim
+for (i in object) {
+  console.log(i);
+}
+
+
+let array1 = ['v1','v2','v3','v4','v5'];
+let object1 = { propriedade1:'v1',propriedade2:'v2', propriedade3:'v3'};
+
+// executa repetição a partir de valor
+for ( iterator of array1) {
+    console.log(iterator);//v1 v2 v3 v4 v5
+}
+
+// com objeto devemos colocar a propriedade
+for ( iterator of object.propriedade2) {
+    console.log(iterator);
+    //imprime cada letra em uma linha
+}
